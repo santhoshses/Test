@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "TabulatorSetup",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_TabulatorSetup",
+  "deleted": false,
+  "gitSyncId": "63ca90b770685d6af3d02213_63d116e709256962a9bf78ba"
+}
