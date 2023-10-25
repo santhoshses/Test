@@ -18,6 +18,7 @@
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 19.8125,
+    "dynamicTriggerPathList": [],
     "leftColumn": 8,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
@@ -27,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello {{appsmith.user.name || appsmith.user.email}}",
+    "text": "Hello {{appsmith.user.name || appsmith.user.email}} ssssssss",
     "key": "cvbojdji5y",
     "isDeprecated": false,
     "rightColumn": 24,
