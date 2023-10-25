@@ -6,7 +6,7 @@
     "type": "PHONE_INPUT_WIDGET",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 20,
+    "leftColumn": 33,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -36,7 +36,7 @@
     "key": "unnxho2csu",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 22,
+    "rightColumn": 35,
     "widgetId": "2gn9fyvk6f",
     "allowDialCodeChange": false,
     "minWidth": 450,

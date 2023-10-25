@@ -14,7 +14,7 @@
         {"key": "boxShadow"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 34,
+    "leftColumn": 35,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",

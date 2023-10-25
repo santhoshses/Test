@@ -53,8 +53,8 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 37,
-    "bottomRow": 69,
+    "topRow": 41,
+    "bottomRow": 73,
     "parentRowSpace": 10,
     "type": "MAP_CHART_WIDGET",
     "hideCard": false,
@@ -62,7 +62,7 @@
     "mobileRightColumn": 40,
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
-    "leftColumn": 22,
+    "leftColumn": 21,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -70,7 +70,7 @@
     ],
     "key": "f39rvj7qbs",
     "isDeprecated": false,
-    "rightColumn": 34,
+    "rightColumn": 33,
     "widgetId": "qisbcfomq5",
     "mapType": "WORLD",
     "minWidth": 450,
@@ -81,7 +81,9 @@
     "isLoading": false,
     "mobileTopRow": 13,
     "responsiveBehavior": "fill",
+    "originalTopRow": 41,
     "showLabels": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 16
+    "mobileLeftColumn": 16,
+    "originalBottomRow": 73
 }
