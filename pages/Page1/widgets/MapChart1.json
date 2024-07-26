@@ -1,89 +1,95 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 45,
-    "widgetName": "MapChart1",
-    "data": [
-        {
-            "id": "NA",
-            "value": ".82"
-        },
-        {
-            "id": "SA",
-            "value": "2.04"
-        },
-        {
-            "id": "AS",
-            "value": "1.78"
-        },
-        {
-            "id": "EU",
-            "value": ".40"
-        },
-        {
-            "id": "AF",
-            "value": "2.58"
-        },
-        {
-            "id": "AU",
-            "value": "1.30"
-        }
-    ],
-    "colorRange": [
-        {
-            "minValue": 0.5,
-            "code": "#FFD74D",
-            "maxValue": 1
-        },
-        {
-            "minValue": 1,
-            "code": "#FB8C00",
-            "maxValue": 2
-        },
-        {
-            "minValue": 2,
-            "code": "#E65100",
-            "maxValue": 3
-        }
-    ],
-    "isCanvas": false,
-    "displayName": "Map Chart",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.2e98f406047401a91fe13f819347bd2b.svg",
-    "searchTags": [
-        "graph",
-        "visuals",
-        "visualisations"
-    ],
-    "topRow": 41,
-    "bottomRow": 73,
-    "parentRowSpace": 10,
-    "type": "MAP_CHART_WIDGET",
-    "hideCard": false,
-    "mapTitle": "Global Population",
-    "mobileRightColumn": 40,
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 17.9375,
-    "leftColumn": 21,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "fontFamily"}
-    ],
-    "key": "f39rvj7qbs",
-    "isDeprecated": false,
-    "rightColumn": 33,
-    "widgetId": "qisbcfomq5",
-    "mapType": "WORLD",
-    "minWidth": 450,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 13,
-    "responsiveBehavior": "fill",
-    "originalTopRow": 41,
-    "showLabels": true,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 16,
-    "originalBottomRow": 73
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 73,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "colorRange": [
+    {
+      "code": "#FFD74D",
+      "maxValue": 1,
+      "minValue": 0.5
+    },
+    {
+      "code": "#FB8C00",
+      "maxValue": 2,
+      "minValue": 1
+    },
+    {
+      "code": "#E65100",
+      "maxValue": 3,
+      "minValue": 2
+    }
+  ],
+  "data": [
+    {
+      "id": "NA",
+      "value": ".82"
+    },
+    {
+      "id": "SA",
+      "value": "2.04"
+    },
+    {
+      "id": "AS",
+      "value": "1.78"
+    },
+    {
+      "id": "EU",
+      "value": ".40"
+    },
+    {
+      "id": "AF",
+      "value": "2.58"
+    },
+    {
+      "id": "AU",
+      "value": "1.30"
+    }
+  ],
+  "displayName": "Map Chart",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.2e98f406047401a91fe13f819347bd2b.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "f39rvj7qbs",
+  "leftColumn": 21,
+  "mapTitle": "Global Population",
+  "mapType": "WORLD",
+  "minWidth": 450,
+  "mobileBottomRow": 45,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 13,
+  "originalBottomRow": 73,
+  "originalTopRow": 41,
+  "parentColumnSpace": 17.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 33,
+  "searchTags": [
+    "graph",
+    "visuals",
+    "visualisations"
+  ],
+  "showLabels": true,
+  "topRow": 41,
+  "type": "MAP_CHART_WIDGET",
+  "version": 1,
+  "widgetId": "qisbcfomq5",
+  "widgetName": "MapChart1"
 }

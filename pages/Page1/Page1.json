@@ -1,72 +1,32 @@
 {
+  "gitSyncId": "63ca90b770685d6af3d02213_63ca90b770685d6af3d02216",
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
+          "bottomRow": 1370,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
+          "minHeight": 1292,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
           "rightColumn": 4896,
           "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 1370,
-          "containerStyle": "none",
           "snapRows": 125,
-          "parentRowSpace": 1,
+          "topRow": 0,
           "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Page1_Select_query1",
-              "name": "Select_query1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.searchText",
-                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table1.sortOrder.column || 'id'",
-                "Table1.pageSize",
-                "Table1.pageOffset"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Page1_Total_record_query1",
-              "name": "Total_record_query1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Page1",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": []
-  },
-  "deleted": false,
-  "gitSyncId": "63ca90b770685d6af3d02213_63ca90b770685d6af3d02216"
+    "name": "Page1",
+    "slug": "page1"
+  }
 }

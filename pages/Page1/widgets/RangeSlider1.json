@@ -1,62 +1,66 @@
 {
-    "mobileBottomRow": 24,
-    "widgetName": "RangeSlider1",
-    "displayName": "Range Slider",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.3f32f66116ac552401cb2dd3d5e3aa1a.svg",
-    "defaultStartValue": 10,
-    "tooltipAlwaysOn": false,
-    "labelText": "Percentage",
-    "topRow": 8,
-    "bottomRow": 16,
-    "parentRowSpace": 10,
-    "labelWidth": 8,
-    "type": "RANGE_SLIDER_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 10,
-    "animateLoading": true,
-    "min": 0,
-    "parentColumnSpace": 17.9375,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
-    "labelPosition": "Top",
-    "shouldTruncate": false,
-    "isDisabled": false,
-    "defaultEndValue": 100,
-    "key": "hd9l3043bw",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 10,
-    "max": 100,
-    "widgetId": "szjebkl6yr",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "marks": [
-        {
-            "label": "25%",
-            "value": 25
-        },
-        {
-            "label": "50%",
-            "value": 50
-        },
-        {
-            "label": "75%",
-            "value": 75
-        }
-    ],
-    "sliderSize": "m",
-    "shouldScroll": false,
-    "version": 1,
-    "parentId": "0",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 16,
-    "responsiveBehavior": "fill",
-    "originalTopRow": 10,
-    "mobileLeftColumn": 0,
-    "originalBottomRow": 18,
-    "step": 1,
-    "showMarksLabel": true,
-    "minRange": 5
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "bottomRow": 16,
+  "defaultEndValue": 100,
+  "defaultStartValue": 10,
+  "displayName": "Range Slider",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.3f32f66116ac552401cb2dd3d5e3aa1a.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "hd9l3043bw",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Percentage",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 8,
+  "leftColumn": 0,
+  "marks": [
+    {
+      "label": "25%",
+      "value": 25
+    },
+    {
+      "label": "50%",
+      "value": 50
+    },
+    {
+      "label": "75%",
+      "value": 75
+    }
+  ],
+  "max": 100,
+  "min": 0,
+  "minRange": 5,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 16,
+  "originalBottomRow": 18,
+  "originalTopRow": 10,
+  "parentColumnSpace": 17.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 10,
+  "shouldScroll": false,
+  "shouldTruncate": false,
+  "showMarksLabel": true,
+  "sliderSize": "m",
+  "step": 1,
+  "tooltipAlwaysOn": false,
+  "topRow": 8,
+  "type": "RANGE_SLIDER_WIDGET",
+  "version": 1,
+  "widgetId": "szjebkl6yr",
+  "widgetName": "RangeSlider1"
 }

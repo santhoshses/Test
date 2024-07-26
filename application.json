@@ -1,25 +1,19 @@
 {
+  "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
+  "applicationVersion": 2,
+  "color": "#F3F1C7",
+  "evaluationVersion": 2,
+  "icon": "product",
   "pages": [
     {
       "id": "Page1",
       "isDefault": true
     }
   ],
-  "viewMode": false,
-  "appIsExample": false,
-  "unreadCommentThreads": 0,
-  "color": "#F3F1C7",
-  "icon": "product",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
-  },
-  "publishedAppLayout": {
-    "type": "DESKTOP"
-  },
-  "unpublishedCustomJSLibs": [],
-  "publishedCustomJSLibs": [],
-  "evaluationVersion": 2,
-  "applicationVersion": 2,
-  "isManualUpdate": false,
-  "deleted": false
+  }
 }

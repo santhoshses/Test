@@ -1,42 +1,46 @@
 {
-    "boxShadow": "none",
-    "mobileBottomRow": 22,
-    "widgetName": "IconButton4",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "Icon button",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.80fc7466c0d7181ec0271de7fda795ec.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 12,
-    "bottomRow": 16,
-    "parentRowSpace": 10,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 16,
-    "animateLoading": true,
-    "parentColumnSpace": 17.9375,
-    "leftColumn": 12,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "isDisabled": false,
-    "key": "qwm4dxwb3s",
-    "isDeprecated": false,
-    "rightColumn": 16,
-    "iconName": "plus",
-    "widgetId": "281hoehnjz",
-    "minWidth": 50,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 18,
-    "responsiveBehavior": "hug",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 12,
-    "buttonVariant": "PRIMARY"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Icon button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "plus",
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.80fc7466c0d7181ec0271de7fda795ec.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "qwm4dxwb3s",
+  "leftColumn": 12,
+  "minWidth": 50,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 18,
+  "parentColumnSpace": 17.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 16,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "topRow": 12,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "281hoehnjz",
+  "widgetName": "IconButton4"
 }
